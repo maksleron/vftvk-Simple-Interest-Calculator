@@ -16,8 +16,9 @@ function compute() {
 }
 
 //Update the rate value format
-function getSliderValue() {
-    document.getElementById("rateSpan").innerHTML = document.getElementById("rate").value;
+function updateRate() {
+    var rateval = document.getElementById("rate").value;
+    document.getElementById("rate_val").innerText=rateval;
 }
 
 //Check for positive values
