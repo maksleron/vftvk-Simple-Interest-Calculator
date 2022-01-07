@@ -1,1 +1,1 @@
-# coding-project-template
+# project by Dmitry N. Timanov
